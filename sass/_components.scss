@@ -9,13 +9,14 @@
   height: 40px;
   width: 60%;
   background-color: $pure-white;
+  border: none;
   &-left{
     bottom: 0;
     left: -50px;
     transform: skew(45deg);
   }  
   &-right{
-    bottom: 0;
+    top: 0;
     right: -50px;
     transform: skew(45deg);
   }
