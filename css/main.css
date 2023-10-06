@@ -233,6 +233,12 @@ body {
   background-color: #eee;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+  background-color: #2e2e2e;
+}
+
 .dreams__box {
   display: flex;
   flex-direction: column;
