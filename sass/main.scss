@@ -20,11 +20,7 @@ body {
 	font-size: 1.6rem;
 }
 
-.black-bars-color,
-.black-bars-color::after,
-.black-bars-color::before{
-	background-color: $dark;
-}
+
 
 // NAV
 .burger-btn {
@@ -137,6 +133,8 @@ body {
 	animation: navItemsAnimation 1s both;
 }
 
+
+
 //HEADER
 .header {
 	position: relative;
@@ -178,7 +176,11 @@ body {
 		}
 	}
 }
-
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before{
+	background-color: $dark;
+}
 // MAIN
 // DREAMS SECTION
 .dreams {
